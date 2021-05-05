@@ -117,11 +117,12 @@
                 <div class="block-heading" style="padding-top: 30px;">
                     <p><strong>THE TEST GURU LTD</strong><br>83 Ducie Street, Ancoats, Manchester, M1 2BE, United Kingdom<br><br>Call us today: <a href="tel:01619390093">0161 93 900 93</a> <br>&nbsp;Or Email on: <a href="mailto:Info@TheTestGuru.co.uk">Info@TheTestGuru.co.uk</a></p>
                 </div>
-                <form action="/sendmessage" method="post">
+                <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
                     <div class="form-group"><label>Name</label><input name="name" class="form-control" type="text" required></div>
                     <div class="form-group"><label>Subject</label><input name="subject" class="form-control" type="text" required></div>
                     <div class="form-group"><label>Email</label><input name="email" class="form-control" type="email" required></div>
                     <div class="form-group"><label>Message</label><textarea name="message" class="form-control" required></textarea></div>
+                    <div data-netlify-recaptcha="true"></div>
                     <div class="form-group"><button class="btn btn-primary btn-block" type="submit"><span>Send</span></button></div>
                 </form>
             </div>
