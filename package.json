@@ -9,7 +9,7 @@
   "author": "mohammed-awais",
   "license": "CC-BY-3.0",
   "devDependencies": {
-    "gulp": "^4.0.0",
+    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1"
   },
   "dependencies": {
